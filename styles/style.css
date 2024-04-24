@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0 auto;
+}
+
+h2{
+    height: 7rem;
+    display: flex;
+    font-size: 10rem;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    font-family: "Montserrat" sans-serif;
 }
 
 body {
@@ -50,6 +64,7 @@ header {
     color: black;
     font-size: 1.2rem;
     padding: 0 1rem;
+    cursor: pointer;
 }
 
 .navigation-menu button {
@@ -106,6 +121,7 @@ header {
     display: flex;
     font-size: 2.1rem;
     align-items: center;
+    font-family: "Montserrat" sans-serif;
     justify-content: center;
 }
 
@@ -136,6 +152,55 @@ header {
 
 .img-section {
     display: flex;
-    width: auto;
+    width: 200px;
     height: 350px;
+}
+
+.food-eastern >a{
+    color: #DA2535;
+    text-decoration: underline;
+}
+
+.dishes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    margin: auto;
+    width: 90%;
+}
+
+.dishes-food{
+    background-color: #d5d5d5d3;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    height: 350px;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.dishes-food>img{
+    display: flex;
+    width: auto;
+    height: 180px;
+    margin: auto;
+}
+
+.dishes-food>h3{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    font-family: "Montserrat" sans-serif;
+    justify-content: center;
+}
+
+.dishes-food>p{
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    height: 40%;
+    text-align: justify;
+    
 }
