@@ -22,7 +22,7 @@ h2 {
     font-size: 1.2rem;
     padding: 0 1rem;
     text-transform: uppercase;
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat";
 }
 
 body {
@@ -39,7 +39,6 @@ header {
     height: 65px;
     width: 100%
 }
-
 
 .navigation-menu>ul {
     height: 100%;
@@ -119,7 +118,7 @@ header {
     flex-wrap: wrap;
     height: 240px;
     width: 50%;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter';
 }
 
 .food-eastern {
@@ -131,14 +130,14 @@ header {
     margin-bottom: 40px;
     height: 240px;
     width: 40%;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter';
 }
 
 .food-eastern>h3 {
     display: flex;
     font-size: 2.1rem;
     align-items: center;
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat";
     justify-content: center;
 }
 
@@ -146,7 +145,7 @@ header {
     align-items: center;
     font-size: 1.5rem;
     height: 40%;
-
+    font-family: 'Inter';
 }
 
 .food-eastern>button {
@@ -159,7 +158,7 @@ header {
     width: 150px;
     height: 25px;
     border: none;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter';
 }
 
 .food-eastern button:last-child {
@@ -202,7 +201,7 @@ header {
     padding: 15px;
     margin: 10px;
     width: 200px;
-    height: 310px;
+    height: 350px;
     position: relative;
     border-radius: 20px;
     margin-bottom: 50px;
@@ -223,7 +222,7 @@ header {
     display: flex;
     font-size: 1.5rem;
     align-items: center;
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat";
     justify-content: center;
 }
 
@@ -285,7 +284,7 @@ header {
     display: flex;
     font-size: 1.5rem;
     align-items: center;
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat";
     justify-content: flex-start;
 }
 
@@ -368,7 +367,7 @@ input {
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat";
     color: black;
     font-size: 1.2rem;
     padding: 0 1rem;
@@ -378,7 +377,7 @@ input {
 .footer-list > h1:first-child{
     position: relative;
     margin-top: 30px;
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat";
     text-transform: uppercase;
     background: linear-gradient(to right, #DA2535 50%, black 0);
     -webkit-background-clip: text;
@@ -408,4 +407,39 @@ input {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-section {
+        flex-direction: column;
+    }
+
+    .img-section {
+
+        margin: 20px 0;
+    }
+
+    .img-section:last-child{
+        display: block;
+    }
+
+    .img-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .food-eastern button {
+        margin-top: 10px; 
+    }
+
+    .food-eastern a {
+        display: block;
+        text-align: center;
+        margin-top: 10px; 
+    }
+
+    .localization img {
+        display: block;
+        margin: 0 auto; /
+    }
 }
