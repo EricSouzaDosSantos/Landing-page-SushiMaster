@@ -202,18 +202,22 @@ header {
     padding: 15px;
     margin: 10px;
     width: 200px;
-    height: 350px;
+    height: 310px;
     position: relative;
     border-radius: 20px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-.dishes-food>img {
+.dishes-food > img {
     display: flex;
     width: auto;
     height: 180px;
     margin: auto;
+    margin-top: -70px; 
+    margin-bottom: 20px;
 }
+
 
 .dishes-food>h3 {
     display: flex;
@@ -345,37 +349,18 @@ input {
 
 .footer {
     padding-top: 100px;
-    width: 100%;
+    text-align: center;
+}
+
+.footer-list {
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
 }
 
-.footer ul {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-}
-.footer ul:first-child {
-    height: 90%;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.footer a{
-    height: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    font-size: 1.2rem;
-    padding: 0 5rem;
-    cursor: pointer;
-
+.footer-item {
+    margin-bottom: 20px;
 }
 
 .footer h1 {
@@ -383,11 +368,44 @@ input {
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
+    font-family: "Montserrat" sans-serif;
     color: black;
     font-size: 1.2rem;
     padding: 0 1rem;
     text-transform: uppercase;
+}
+
+.footer-list > h1:first-child{
+    position: relative;
+    margin-top: 30px;
+    font-family: "Montserrat" sans-serif;
+    text-transform: uppercase;
     background: linear-gradient(to right, #DA2535 50%, black 0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.5em
+}
+
+.sub-menu {
+    padding: 0;
+}
+
+.sub-menu li {
+    margin-top: 5px;
+    font-size: 1rem;
+    line-height: 1.5em
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
