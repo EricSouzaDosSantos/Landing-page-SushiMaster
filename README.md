@@ -31,7 +31,7 @@ Esta seção destaca os principais pratos servidos pela casa, os mais populares 
 ### Clone o Repositório:
 
 ```
-git clone https://github.com/seu-usuario/sushi-master.git
+git clone https://github.com/EricSouzaDosSantos/Landing-page-SushiMaster.git
 ```
 
 - Abra o Arquivo index.html no Navegador:
